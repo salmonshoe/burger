@@ -1,0 +1,21 @@
+<h1>Eat-Da-Burger!</h1>
+
+<ul>
+    {{#each burgers}}
+    <li>
+        <p>Type: {{this.burger_name}}</p>
+        <p>Devoured? {{this.devoured}}</p>
+    </li>
+    {{/each}}
+</ul>
+
+<form class="create-form">
+    <div class="form-group">
+        <input type="text" id="patty" name="type">
+    </div>
+<br>
+    <button type="submit">Add Burger</button>
+</form>
+
+<h4>You must be very hungry.</h4> 
+<h4>Type the burger you crave and submit your order.</h4>

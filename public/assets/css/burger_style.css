@@ -1,0 +1,21 @@
+h1, h4 {
+    text-align: center;
+    color:#b22d00;
+}
+
+body {
+    background-color: #ffcb68;
+    text-align: center;
+    margin: 100px;
+}
+
+input {
+    height: 85px;
+    width: 250px;
+}
+
+button {
+    background-color: dodgerblue;
+    color: white;
+    border-style: inset;
+}
