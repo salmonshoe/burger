@@ -3,6 +3,16 @@ h1, h4 {
     color:#b22d00;
 }
 
+.delete {
+    background-color: aquamarine;
+}
+
+.receipt {
+    height: 125px;
+    width: 145px;
+    background-color: pink;
+}
+
 body {
     background-color: #ffcb68;
     text-align: center;
@@ -14,7 +24,7 @@ input {
     width: 250px;
 }
 
-button {
+#order-it {
     background-color: dodgerblue;
     color: white;
     border-style: inset;

@@ -2,10 +2,12 @@
 
 <ul>
     {{#each burgers}}
-    <li>
+    <div class="receipt">
         <p>Type: {{this.burger_name}}</p>
+        <p>ID: {{this.id}}</p>
         <p>Devoured? {{this.devoured}}</p>
-    </li>
+        <button data-id="{{this.id}}" class="delete">Devour it!</button>
+    </div>
     {{/each}}
 </ul>
 
@@ -13,9 +15,9 @@
     <div class="form-group">
         <input type="text" id="patty" name="type">
     </div>
-<br>
-    <button type="submit">Add Burger</button>
+    <br>
+    <button type="submit" id="order-it">Add Burger</button>
 </form>
 
-<h4>You must be very hungry.</h4> 
+<h4>You must be very hungry.</h4>
 <h4>Type the burger you crave and submit your order.</h4>
